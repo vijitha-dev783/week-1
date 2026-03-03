@@ -1,0 +1,50 @@
+body{
+    font-family:Arial;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:#eef;
+}
+
+.login{
+    width:300px;
+    padding:20px;
+    background:white;
+    border-radius:8px;
+    box-shadow:0 0 10px gray;
+    text-align:center;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    margin:8px 0;
+}
+
+button{
+    width:100%;
+    padding:8px;
+    background:#4a90e2;
+    color:white;
+    border:none;
+}
+
+button:hover{
+    background:#2c5aa0;
+}
+
+button:disabled{
+    background:gray;
+}
+
+#message{
+    color:red;
+    font-size:14px;
+}
+
+@media(max-width:500px){
+    .login{
+        width:90%;
+    }
+}
