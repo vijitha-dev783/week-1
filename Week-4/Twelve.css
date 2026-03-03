@@ -1,0 +1,27 @@
+body{
+    font-family:Arial;
+    margin:0;
+}
+
+.container{
+    display:flex;
+}
+
+.left,.right{
+    flex:1;
+    padding:20px;
+}
+
+.left{
+    background:#eef;
+}
+
+.right{
+    background:#d6eaff;
+}
+
+@media(max-width:600px){
+    .container{
+        flex-direction:column;
+    }
+}

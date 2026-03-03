@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    background: #eef;
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    margin: 40px auto;
+}
+
+fieldset {
+    padding: 20px;
+    border: 2px solid blue;
+    border-radius: 8px;
+}
+
+legend {
+    font-weight: bold;
+    color: blue;
+    font-size: 18px;
+}
+
+input, select {
+    width: 100%;
+    padding: 6px;
+    margin: 5px 0;
+}
+
+button {
+    width: 100%;
+    padding: 8px;
+    background: blue;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: darkblue;
+}

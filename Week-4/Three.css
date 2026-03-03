@@ -1,0 +1,42 @@
+body{
+    font-family:Arial;
+    background:#f2f6ff;
+    text-align:center;
+}
+
+form{
+    width:350px;
+    margin:30px auto;
+    padding:20px;
+    background:white;
+    border-radius:8px;
+    box-shadow:0 0 8px gray;
+}
+
+input[type="text"],
+input[type="email"],
+textarea{
+    width:100%;
+    padding:6px;
+    margin-top:5px;
+}
+
+textarea{
+    height:100px;
+}
+
+input:focus, textarea:focus{
+    outline:2px solid #4a90e2;
+}
+
+input[type="submit"]{
+    background:#4a90e2;
+    color:white;
+    border:none;
+    padding:8px;
+    width:100%;
+}
+
+input[type="submit"]:hover{
+    background:#2c5aa0;
+}
